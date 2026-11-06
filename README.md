@@ -37,6 +37,18 @@ the server for directories and for the people adding it to their clients.
   }
   ```
 
+- **Cursor:** use **Add to Cursor** on
+  [nestsolver.com/mcp](https://nestsolver.com/mcp), or add it to
+  `~/.cursor/mcp.json` and sign in when Cursor asks:
+
+  ```json
+  {
+    "mcpServers": {
+      "nestsolver": { "url": "https://mcp.nestsolver.com" }
+    }
+  }
+  ```
+
 - **Other MCP clients:** add a remote (Streamable HTTP) server at
   `https://mcp.nestsolver.com` and sign in when asked.
 
